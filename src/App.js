@@ -11,11 +11,11 @@ import i27 from './images/image 27.png';
 import i28 from './images/image 28.png';
 import i30 from './images/image 30.png';
 import instaLogo from './images/Instagram logo.png';
-import twitterLogo from './images/Twitter logo.png';
+// import twitterLogo from './images/Twitter logo.png';
 import v1 from './images/Vector (1).png';
 import v2 from './images/Vector.png';
 import w211 from './images/WhatsApp Image 2022-10-07 at 2.11.png';
-import w212 from './images/WhatsApp Image 2022-10-07 at 2.12.png';
+// import w212 from './images/WhatsApp Image 2022-10-07 at 2.12.png';
 import w223 from './images/WhatsApp Image 2022-10-07 at 2.23.png';
 import w447 from './images/WhatsApp Image 2022-10-07 at 4.47.png';
 
@@ -28,11 +28,11 @@ function App() {
           <nav>
             <ul className="navbar">
               <li className="navbar-items"><img src={Slogo} alt="sae" className="logo" /></li>
-              <li className="navbar-items"><a href="">Home</a></li>
-              <li className="navbar-items"><a href="">Gallery</a></li>
-              <li className="navbar-items"><a href="">Resources</a></li>
-              <li className="navbar-items"><a href="">Projects</a></li>
-              <li className="navbar-items"><a href="">About Us</a></li>
+              <li className="navbar-items"><a href="/">Home</a></li>
+              <li className="navbar-items"><a href="/">Gallery</a></li>
+              <li className="navbar-items"><a href="/">Resources</a></li>
+              <li className="navbar-items"><a href="/">Projects</a></li>
+              <li className="navbar-items"><a href="/">About Us</a></li>
               <li className="navbar-items"><button className="blog">Blog</button></li>
             </ul>
           </nav>
@@ -46,12 +46,12 @@ function App() {
               <div className="first-box">
                 <h4><img src={v2} alt='' /><b>WHAT WE DO</b></h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam incidunt cumque ducimus maiores temporibus explicabo.
                 <br /><br />
-                <a href="">Read More</a>
+                <a href="/">Read More</a>
               </div>
             </div>
             <div className="right">
-              <img src={w223} alt='' className="img1" />
-              <img src={w447} alt='' className="img2" />
+              <img src={w223} alt='#' className="img1" />
+              <img src={w447} alt='#' className="img2" />
             </div>
           </div>
           <div className="box-2">
@@ -59,7 +59,7 @@ function App() {
             <div className="second-box"><h4><img src={v1} alt='' /><b>LATEST BLOG</b>
             </h4>Modern vehicles are growing increasingly complex. As well as the electrified powertrain, advanced electronics and networked technologies are becoming.....
               <br /><br />
-              <a href="">Read More</a>
+              <a href="/">Read More</a>
             </div>
             <img src={w211} alt='' className="img4" />
             <div className="currents">Currently we are working on various projects, including <br /><br />
@@ -68,20 +68,20 @@ function App() {
 
               <span>RC car project -</span> Work has been ongoing on RC cars for upcoming iit Bombay Techfest.<br /><br />
 
-              <span>L Roboatics - </span>A project on automatic controlled boats has been ongoing for upcoming iit Bombay Techfest giving well curated content via our blogs. To learn more, visit <a href=""><span>Projects</span></a></div>
+              <span>L Roboatics - </span>A project on automatic controlled boats has been ongoing for upcoming iit Bombay Techfest giving well curated content via our blogs. To learn more, visit <a href="/"><span>Projects</span></a></div>
           </div>
         </div>
       </div>
       <div className="second-page">
         <div className="news">
-          <h1>LATEST IN AUTO TECHNOLOGY<img src={i24} alt='' /></h1>
+          <h1>LATEST IN AUTO TECHNOLOGY<img src={i24} alt='#' /></h1>
           <div className="news-1">
             <div className="left-1">
-              <img src={i25} alt='' />
+              <img src={i25} alt='#' />
             </div>
             <div className="right-1">
 
-              <a href=""><h2>Bookings for the New Maruti Grand Vitara
+              <a href="/"><h2>Bookings for the New Maruti Grand Vitara
                 variant bear out consumer bent for hybrids;
                 SUV sells 4800 units in debut month</h2></a>
               <p>In the Indian SUV market, which clocked around 1.2 million units in FY22, the midsize SUV holds a special place. It has a share of 18% and growing ..</p>
@@ -93,7 +93,7 @@ function App() {
               <img src={i26} alt='' />
             </div>
             <div className="right-2">
-              <a href=""><h2>Elon Musk set to showcase Tesla’s
+              <a href="/"><h2>Elon Musk set to showcase Tesla’s
                 humanooid robot after delay</h2></a>
               <p>Elon Musk unveils prototype of Tesla's humanoid robot Optimus, says it will cost less than a car.<br /> Elon Musk showed off a new humanoid robot Friday at a Tesla Inc. artificial-intelligence event, <br />part of the chief executive's effort to shape public perce.....</p>
             </div>
@@ -110,7 +110,7 @@ function App() {
             <br />
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi voluptates blanditiis reprehenderit magni pariatur quo quia repellat debitis quis sit!</p>
             <br />
-            <a href="">Get more info →</a>
+            <a href="/">Get more info →</a>
 
           </div>
           <div className="card-2 card">
@@ -120,7 +120,7 @@ function App() {
             <br />
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi voluptates blanditiis reprehenderit magni pariatur quo quia repellat debitis quis sit!</p>
             <br />
-            <a href="">Get more info →</a>
+            <a href="/">Get more info →</a>
           </div>
           <div className="card-3 card">
 
@@ -129,7 +129,7 @@ function App() {
             <br />
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi voluptates blanditiis reprehenderit magni pariatur quo quia repellat debitis quis sit!</p>
             <br />
-            <a href="">Get more info →</a>
+            <a href="/">Get more info →</a>
           </div>
         </div>
       </div>
@@ -153,18 +153,18 @@ function App() {
           <div className="connect">
             <h2>SAE Collegiate Club 2022<br /> IIT (BHU) Varanasi</h2>
             <h4>Mail us at-</h4>
-            <a href=""><img src={Gmail} alt='' className="gmail-logo" />saecollegiateclub.iitbhu@gmail.com</a><br />
-            <h4>Connect to us on : <a href=""><img src={instaLogo} alt='' className="insta-logo" /></a>
-              <a href=""><img src={G3} alt='' className="linkedin-logo" /></a>
+            <a href="/"><img src={Gmail} alt='' className="gmail-logo" />saecollegiateclub.iitbhu@gmail.com</a><br />
+            <h4>Connect to us on : <a href="/"><img src={instaLogo} alt='' className="insta-logo" /></a>
+              <a href="/"><img src={G3} alt='' className="linkedin-logo" /></a>
             </h4>
           </div>
           <div className="quick-links">
             <h2>Quick Links</h2>
-            <h4>Check out our <span><a href="">Blog</a></span> with weekly updates</h4>
-            <a href="">Projects</a> &nbsp;<a href="">Events</a><br />
-            <a href="">Alumni</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Gallery</a><br />
-            <a href="">About us</a><a href="">Workshops</a><br />
-            <p className="return-to-top"><a href="">Return to top ↑ </a></p>
+            <h4>Check out our <span><a href="/">Blog</a></span> with weekly updates</h4>
+            <a href="/">Projects</a> &nbsp;<a href="/">Events</a><br />
+            <a href="/">Alumni</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/">Gallery</a><br />
+            <a href="/">About us</a><a href="/">Workshops</a><br />
+            <p className="return-to-top"><a href="/">Return to top ↑ </a></p>
 
 
           </div>
