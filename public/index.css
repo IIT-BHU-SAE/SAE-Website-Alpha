@@ -1,18 +1,18 @@
 body {
-    background-color: rgba(40, 37, 38);
+    background-color: rgba(41, 37, 38);
     color: white;
     margin: 0px;
     padding: 0px;
 }
 
 .first-page {
-    background: linear-gradient(119.48deg, #151316 5.67%, #62251F 82.84%) fixed center center/cover;
+    background: linear-gradient(119.48deg, #151316 5.67%, #742d27 82.84%) fixed center center/cover;
     margin: 0px;
     padding: 0px;
 }
 
 .second-page {
-    margin: 0px 40px;
+    margin: 0px 39.5px;
 }
 
 .third-page {
@@ -37,7 +37,7 @@ body {
 }
 
 .right {
-    margin: 50px 0px;
+    margin: 51px px;
 }
 
 .navbar-items a {
@@ -46,23 +46,25 @@ body {
 }
 
 .blog {
-    width: 130px;
-    height: 40px;
+    width: 131px;
+    height: 39px;
     background: linear-gradient(270deg, #FE9F0E 5.94%, #FD4E11 100%);
     color: white;
     border: none;
     border-radius: 4px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     cursor: pointer;
     position: relative;
-    right: 25px;
+    right: px;
+    left:10px
+    
 }
 
 .blog:hover {
     box-shadow: 2px 2px 5px#FD4E11;
     width: 132px;
-    height: 42px;
-    border-radius: 6px;
+    height: 40px;
+    border-radius: 5px;
     font-size: 1.32rem;
 }
 
@@ -128,13 +130,13 @@ body {
 }
 
 .left img {
-    width: 360px;
+    width: 360.5px;
     position: relative;
     bottom: 20px;
 }
 
 .first-box {
-    width: 230px;
+    width: 231px;
     height: 230px;
     background: radial-gradient(#f7f7f7, #ffc772);
     color: black;
@@ -146,7 +148,7 @@ body {
 }
 
 .first-box a {
-    color: black;
+    color: rgb(2, 2, 2);
     font-weight: 600;
 }
 
@@ -165,7 +167,7 @@ body {
 }
 
 .first-box h4 {
-    font-size: 18px;
+    font-size: 18.5px;
     margin-top: 5px;
     margin-bottom: 10px;
 }
@@ -177,7 +179,7 @@ body {
 .second-box {
     width: 200px;
     height: 220px;
-    background: radial-gradient(#f7f7f7, #ffc772);
+    background: radial-gradient(#f6f6f6, #ffc772);
     color: black;
     padding: 10px 15px 20px 15px;
     font-family: 'Inter', sans-serif;
@@ -197,7 +199,7 @@ body {
     padding: 0px 3px;
     border-radius: 3px;
     margin-right: 10px;
-    background: linear-gradient(#fdf511 1.11%, #FE9F0E 94%);
+    background: linear-gradient(#fdf51c 1.11%, #FE9F0E 94%);
     position: relative;
     top: 5px;
 }
@@ -241,9 +243,9 @@ body {
 
 .news {
     color: black;
-    width: 92%;
+    width: 91%;
     margin: auto;
-    background: radial-gradient(#f7f7f7, #ffc772);
+    background: radial-gradient(#f7f7f6, #ffc772);
     height: 640px;
     margin-bottom: 40px;
     font-family: 'Inter', sans-serif;
@@ -265,7 +267,7 @@ body {
 
 .news-1 {
     display: flex;
-    column-gap: 30px;
+    column-gap: 30.2px;
     margin-bottom: 40px;
 }
 
@@ -305,11 +307,11 @@ body {
 }
 
 .card {
-    background-color: white;
+    background-color: #ffffff;
     font-family: 'Inter', sans-serif;
     color: black;
     border-radius: 9px;
-    padding: 20px;
+    padding: 20.5px;
     font-size: 24px;
     width: 30%;
     display: flex;
@@ -320,7 +322,7 @@ body {
 }
 
 .card:hover {
-    box-shadow: 2px 2px 10px white;
+    box-shadow: 2px 2px 10px hsl(0, 0%, 99.5%);
     border-radius: 15px;
     cursor: pointer;
 
